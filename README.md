@@ -1,1 +1,1 @@
-# Odin-recipes
+Key points for me are keep the logic of the site clear, keep organized, and commit often
