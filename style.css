@@ -1,0 +1,15 @@
+h1 {
+    color: forestgreen;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.recipe {
+    color:orange;
+    text-align:left;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:20px;
+    font-weight:normal;
+}
