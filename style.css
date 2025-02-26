@@ -1,22 +1,46 @@
+/* Common styles for text */
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
-    text-align: center;
+    text-align: left;
 }
 
+img {
+    height: auto;
+    width: 500px;
+}
+
+/* Styling for h1 (page title) */
 h1 {
     color: forestgreen;
     font-size: 50px;
     font-weight: bold;
 }
+
+h2 {
+    color: forestgreen;
+    font-size: 40px;
+    font-weight: bold; 
+}
+
+p {
+    color:chocolate;
+    font-size:20px;
+    font-weight:normal;
+}
+
+/* Styling for the .recipe class */
 .recipe {
     color: orange;
     font-size: 20px;
 }
+
+/* Styling for the unordered list */
 ul {
     color: chocolate;
     font-size: 30px;
     padding: 0;
+    list-style-type: none; /* Removes bullet points */
 }
 
 /* Styling for list items */
@@ -31,4 +55,9 @@ a {
     color: chocolate;
     text-decoration: none; /* Removes underline */
     font-size: 30px;
+}
+
+/* Optional: Hover effect for links */
+a:hover {
+    color: orange; /* Changes color on hover */
 }
