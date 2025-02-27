@@ -4,24 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yuzhen's Hand Selected Recipes</title>
-    <!-- Link to the CSS file here -->
+    <title>Recipe List</title>
+    <!-- Link to an external CSS file if needed -->
     <link rel="stylesheet" href="style.css">
+
+    <style>
+        #list a {
+            color: green;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        /* Style for <p> elements, in case you want to style a paragraph */
+        p {
+            color:olive;
+            font-size:20px;
+            font-weight:normal;
+        }
+    </style>
 </head>
 <body>
-    <!-- Your content goes here -->
-<h1>
-    Yuzhen's Hand Selected Recipes
-        <ul>
-            <li> <div id="list"><a href="recipes/pulled-chicken.html">Pulled Chicken</a></div>
-            </li>
-            <li>
-                <a href="recipes/lasagna.html">Lasagna</a>
-            </li>
-            <li>
-                <a href="recipes/burger.html">Burger</a>
-            </li>
-        </ul>
-</h1>
+    <h1>Yuzhen's hand selected recipes</h1>
+    <ul>
+        <li>
+            <!-- List item with the anchor link inside a div with id "list" -->
+            <div id="list"><a href="recipes/pulled-chicken.html">Pulled Chicken</a></div>
+        </li>
+        <li>
+            <div id="list"><a href="recipes/lasagna.html">Lasagna</a></div>
+        </li>
+        <li>
+            <div id="list"><a href="recipes/burger.html">Burger</a></div>
+        </li>
+    </ul>
+
 </body>
 </html>

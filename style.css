@@ -12,32 +12,32 @@ img {
 
 /* Styling for h1 (page title) */
 h1 {
-    color: forestgreen;
+    color: darkslategrey;
     font-size: 50px;
     font-weight: bold;
 }
 
 h2 {
-    color: forestgreen;
+    color:darkslategrey
     font-size: 40px;
     font-weight: bold; 
 }
 
 p {
-    color:chocolate;
+    color:olive;
     font-size:20px;
     font-weight:normal;
 }
 
 /* Styling for the .recipe class */
 .recipe {
-    color: orange;
+    color: olive
     font-size: 20px;
 }
 
 /* Styling for the unordered list */
 ul {
-    color: chocolate;
+    color: olive;
     font-size: 30px;
     padding: 0;
     list-style-type: none; /* Removes bullet points */
@@ -45,14 +45,14 @@ ul {
 
 /* Styling for list items */
 li {
-    color: chocolate;
+    color: olive;
     font-size: 30px;
     margin: 10px 0; /* Adds space between list items */
 }
 
 /* Styling for links inside list items */
 a {
-    color: chocolate;
+    color:olive;
     text-decoration: none; /* Removes underline */
     font-size: 30px;
 }
